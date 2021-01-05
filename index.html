@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Khlifi Déco &mdash; </title>
+        <title>Agency - Start Bootstrap Theme</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
@@ -16,45 +16,62 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
+    <style>
+        .embed-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+          }
+          
+          /* Then style the iframe to fit in the container div with full height and width */
+          .responsive-iframe-youtube {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+          }
+    </style>
     <body id="page-top">
         <!-- Navigation-->
-        
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-
-                    
-
-                    <div class="container" style="position: relative; top: 30px;">
-                        <a class="navbar-brand js-scroll-trigger " href="#page-top"><img alt="Image" style="height: 70px;" class="img-fluid" src="assets/img/logo.svg"  /></a>
-                        <div class="collapse navbar-collapse container"  id="navbarResponsive">
-                            <ul class="navbar-nav text-uppercase ml-auto">
-                                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#accueil">Accueil</a></li>
-                                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#products-section">Galerie</a></li>
-                                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#servers-section">Nos Serveurs</a></li>
-                                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#packs-section">Nos Packs</a></li>
-                                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">A propos</a></li>
-                                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-                            </ul>
-                        </div>
-                    
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" height='50px' style="background-color: #616161!important;" >
+            <div class="container">
+                <div class="row" style="width: 100%;">
+                    <div class="col-4">
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/decorationkhlifipourmariageetevenementiel"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.youtube.com/channel/UCwJWXQD9JmqfQDkcAgQIUEQ"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/wedding_planner_khlifi/"><i class="fab fa-instagram"></i></a>
                     </div>
+                    <div class="col-1"></div>
+                    <div class="col-7 text-right">
+                        <div class="row">
+                            <div class="col text-black"style="color: #fed136;">(+216) 98 266 781</div>
+                            <div class="col text-black"style="color: #fed136;">khlifilocation@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
 
-        </nav>
-        <nav class="navbar fixed-top" style="background-color: #616161;">
-            
-            <div class="col-lg-3 ">
-                <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/decorationkhlifipourmariageetevenementiel"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-dark btn-social mx-2" href="https://www.youtube.com/channel/UCwJWXQD9JmqfQDkcAgQIUEQ"><i class="fab fa-youtube"></i></a>
-                <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/wedding_planner_khlifi/"><i class="fab fa-instagram"></i></a>
             </div>
-            <div class="col-lg-4 text-right">
-                <p class="mb-0 ">
-                            <span class="mr-3"><a href="tel://#"> <span class="icon-phone mr-2"
-                                                                        style="position: relative; top: 2px;"></span><span
-                                    class="d-none d-lg-inline-block text-black">(+216) 98 266 781 </span></a></span>
-                <span><a href="#"><span class="icon-envelope mr-2" style="position: relative; top: 2px;"></span><span
-                        class="d-none d-lg-inline-block text-black">khlifilocation@gmail.com</span></a></span>
-                </p>
-    
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top"  style="top: 50px;" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/logo.svg" alt="" /></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#accueil">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#products">Galerie</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#servers">Nos Serveurs</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#packs">Nos Packs</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <!-- Masthead-->
@@ -62,16 +79,18 @@
             <div class="container">
                 <div class="masthead-heading " style="color: #fed136;">Bienvenue</div>
                 <div class="masthead-subheading " style="color: #fed136;">Une décoration de mariage chic, moderne, et adaptée à tous les goûts</div>
+                <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a> -->
             </div>
         </header>
-        <!-- products-section Grid-->
+        <!-- Services-->
         <section class="page-section" id="accueil">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Accueil</h2>
                     <h3 class="section-subheading text-muted">Souvent qualifié du plus beau jour dans une vie, le mariage est aussi l’un des événements les plus stressants à organiser. S’entourer de professionnels est parfois la meilleure option surtout pour éviter toute source de conflit.</h3>
-                    <br><br>
-                    <h4 class="section-subheading text-uppercase" style="color: #fed136;">Nos missions :</h4>
+                    <h2 class="section-subheading text-muted" style="color: #fed136!important;">Nos missions :</h2>
+                </div>
+                <div class="text-center">
                     <ul class="list-inline">
                         <li>Organisation de mariage et événementiel</li>
                         <li>Décoration & mise en place</li>
@@ -80,305 +99,341 @@
                         <li>Soirées privatives & séminaires</li>
                         <li>Déjeuner, dîner et pauses-café</li>
                     </ul>
-                    <iframe width="800" height="450" src="https://www.youtube.com/embed/h4vn0s8q8wo" ></iframe>
                 </div>
+                <div class="embed-container">
+                    <iframe class="responsive-iframe-youtube"src="https://www.youtube.com/embed/h4vn0s8q8wo"></iframe>
+                  </div>
             </div>
         </section>
-        <section class="page-section" id="products-section">
-            <div class="container">
+        <!-- Portfolio Grid-->
+        <section class="page-section" id="products">
+            <div class="container" id="portfolio">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Galerie</h2>
                     <h3 class="section-subheading text-muted">KHLIFI-décor de mariage & événementiel met à votre disposition tous les articles nécessaires pour mener une fête extraordinaire, exceptionnelle mais aussi hors du commun.</h3>
                 </div>
-                <br><br><br>
                 <div class="text-center">
-                    <h3 class="section-heading text-uppercase">Traditionnel</h3>
+                    <h3 class="section-heading text-uppercase">TRADITIONNEL</h3>
                 </div>
-                <br><br><br>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/traditionnel1.jpg" alt="" />
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/traditionnel/traditionnel1.jpg" alt="" />
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/traditionnel4.jpg" alt="" />
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/traditionnel/traditionnel3.jpg" alt="" />
                             </a>
+                            
                         </div>
-                    </div>   
+                    </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/traditionnel3.jpg" alt="" />
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/traditionnel/traditionnel4.jpg" alt="" />
                             </a>
+                            
                         </div>
-                    </div>   
+                    </div>
                 </div>
-                <br><br><br>
                 <div class="text-center">
-                    <h3 class="section-heading text-uppercase">Réception de mariage</h3>
+                    <h3 class="section-heading text-uppercase">RÉCEPTION DE MARIAGE</h3>
                 </div>
-                <br><br><br>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/reception1.jpg" alt="" />
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/reception/reception1.jpg" alt="" />
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/reception2.jpg" alt="" />
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/reception/reception2.jpg" alt="" />
                             </a>
+                            
                         </div>
-                    </div>   
+                    </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/reception3.jpg" alt="" />
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/reception/reception3.jpg" alt="" />
                             </a>
+                            
                         </div>
-                    </div>   
+                    </div>
                 </div>
-                <br><br><br>
                 <div class="text-center">
-                    <h3 class="section-heading text-uppercase">Fiançailles</h3>
+                    <h2 class="section-heading text-uppercase">FIANÇAILLES</h2>
                     <h3 class="section-subheading text-muted">Lancez vos accordailles et mettez les en valeur grâce à nos articles tout attrayants et prestigieux. Nous vous proposons les plus simples et les plus confortables podiums où vous pourrez placer nos jeunes fiancés afin de les laisser s’exprimer et leur accorder la parole pour déclarer solennellement leur intention de mariage.</h3>
                 </div>
-                <br><br><br>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/fiancailles1.jpg" alt="" />
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/fiancailles/fiancailles1.jpg" alt="" />
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/fiancailles2.jpg" alt="" />
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/fiancailles/fiancailles2.jpg" alt="" />
                             </a>
+                            
                         </div>
-                    </div>   
+                    </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/fiancailles3.jpg" alt="" />
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/fiancailles/fiancailles3.jpg" alt="" />
                             </a>
+                            
                         </div>
-                    </div>   
-                </div>
-                <div class="row">
+                    </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/fiancailles4.jpg" alt="" />
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal10">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/fiancailles/fiancailles4.jpg" alt="" />
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/fiancailles5.jpg" alt="" />
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal11">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/fiancailles/fiancailles5.jpg" alt="" />
                             </a>
+                            
                         </div>
-                    </div>   
+                    </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/fiancailles6.jpg" alt="" />
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal12">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/fiancailles/fiancailles6.jpg" alt="" />
                             </a>
+                            
                         </div>
-                    </div>   
+                    </div>
                 </div>
-                <br><br><br>
                 <div class="text-center">
-                    <h3 class="section-heading text-uppercase">Buffet et Pause-café</h3>
+                    <h3 class="section-heading text-uppercase">BUFFET ET PAUSE-CAFÉ</h3>
                 </div>
-                <br><br><br>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/buffet1.jpg" alt="" />
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal13">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/buffet/buffet1.jpg" alt="" />
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/buffet2.jpg" alt="" />
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal14">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/buffet/buffet2.jpg" alt="" />
                             </a>
+                            
                         </div>
-                    </div>   
+                    </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/buffet3.jpg" alt="" />
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal15">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/buffet/buffet3.jpg" alt="" />
                             </a>
+                            
                         </div>
-                    </div>   
+                    </div>
                 </div>
             </div>
         </section>
-        <!-- servers-section-->
-        <section class="page-section" id="servers-section">
-            <div class="container">
+        <!-- About-->
+        <section class="page-section" id="servers">
+            <div class="container" id="portfolio">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Nos Serveurs</h2>
                     <h3 class="section-subheading text-muted">Afin de profiter pleinement de votre grand jour, faites appel à des serveurs professionnels et confiez-vous la charge totale du service à notre équipe partenaire très bien expérimentée.</h3>
                 </div>
-                <br><br><br><br>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/serveur2.jpg" alt="" />
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal16">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/team/serveur2.jpg" alt="" />
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/serveur3.jpg" alt="" />
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal17">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/team/serveur3.jpg" alt="" />
                             </a>
+                            
                         </div>
-                    </div>   
+                    </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/serveur4.jpg" alt="" />
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal18">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/team/serveur4.jpg" alt="" />
                             </a>
+                            
                         </div>
-                    </div>   
+                    </div>
                 </div>
             </div>
         </section>
-        <!-- packs-section-->
-        <section class="page-section" id="packs-section">
-            <div class="container">
+        <!-- Team-->
+        <section class="page-section" id="packs">
+            <div class="container" id="portfolio">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Nos Packs</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/serveur2.jpg" alt="" />
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal19">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/packs/Pack1.png" alt="" />
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/serveur3.jpg" alt="" />
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal20">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/packs/Pack2.png" alt="" />
                             </a>
+                            
                         </div>
-                    </div>   
+                    </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <img class="img-fluid" src="images/serveur4.jpg" alt="" />
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal21">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/packs/Pack3.png" alt="" />
                             </a>
+                            
                         </div>
-                    </div>   
+                    </div>
                 </div>
             </div>
         </section>
-        <!-- Clients-->
-        <!-- <div class="py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/envato.jpg" alt="" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/designmodo.jpg" alt="" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/themeforest.jpg" alt="" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/creative-market.jpg" alt="" /></a>
-                    </div>
-                </div>
-            </div>
-        </div> -->
         <!-- Contact-->
         <section class="page-section" id="contact">
-            <div class="row">
-            <div class="mapouter">
-                <div class="gmap_canvas">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25560.74918735282!2d10.1243366!3d36.792305!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x67ac2fa09ec6d057!2sKhlifi-D%C3%A9cor%20de%20Mariage!5e0!3m2!1sfr!2stn!4v1609519845846!5m2!1sfr!2stn" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                 </div>
-                <style>.mapouter {
-                  position: relative;
-                  text-align: right;
-                  height: 450px;
-                  width: 600px;
-                  margin-left: auto;
-                }
-
-                .gmap_canvas {
-                  overflow: hidden;
-                  background: none !important;
-                  height: 450px;
-                  width: 600px;
-                }</style>
-              </div>
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Contacter Nous</h2>
-                    <br<br>
                 </div>
-                <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input class="form-control" id="name" type="text" placeholder="Votre Nom *" required="required" data-validation-required-message="Veuillez entrer votre nom." />
-                                <p class="help-block text-danger"></p>
+                <div class="row align-items-stretch mb-10">
+                    <div class="col-md-6 col-sm-6 col mb-5">
+                        <iframe class="responsive-iframe-youtube" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25560.74918735282!2d10.1243366!3d36.792305!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x67ac2fa09ec6d057!2sKhlifi-D%C3%A9cor%20de%20Mariage!5e0!3m2!1sfr!2stn!4v1609519845846!5m2!1sfr!2stn" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <form id="contactForm" class="col-md-6 col-sm-6 col mb-5" style="margin-left: auto;" name="sentMessage" novalidate="novalidate">
+                        <div class="row align-items-stretch mb-5">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" id="name" type="text" placeholder="Votre Nom *" required="required" data-validation-required-message="Veuillez entrer votre nom." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" id="email" type="email" placeholder="Votre Email *" required="required" data-validation-required-message="Veuillez entrer votre adresse email." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group mb-md-0">
+                                    <input class="form-control" id="phone" type="tel" placeholder="Votre Telephone *" required="required" data-validation-required-message="Veuillez entrer votre numéro de téléphone." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <input class="form-control" id="email" type="email" placeholder="Votre Adresse Email *" required="required" data-validation-required-message="Veuillez entrer votre adresse email." />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <input class="form-control" id="phone" type="tel" placeholder="Votre Numéro *" required="required" data-validation-required-message="Veuillez entrer votre numéro de téléphone." />
-                                <p class="help-block text-danger"></p>
+                            <div class="col-md-6">
+                                <div class="form-group form-group-textarea mb-md-0">
+                                    <textarea class="form-control" id="message" placeholder="Votre Message *" required="required" data-validation-required-message="Veuillez entrer votre message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <textarea class="form-control" id="message" placeholder="Votre Message *" required="required" data-validation-required-message="Veuillez entrer votre message."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
+                        <div class="text-center">
+                            <div id="success"></div>
+                            <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Envoyer Message</button>
                         </div>
-                    </div>
-                    <div class="text-center">
-                        <div id="success"></div>
-                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Envoyer Votre Message</button>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
-        </div>
         </section>
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    
-                    <div class="col-lg-6 ">Copyright ©2020 KHLIFI-DECO | En partenariat avec <a href="https://rotaractesprit.org/">Rotaract Esprit</a></div>
-                    <div class="col-lg-3 text-lg-left">
+                    <div class="col-lg-4 text-lg-left">Copyright ©2020 KHLIFI-DECO | En partenariat avec <a href="https://rotaractesprit.org/">Rotaract Esprit</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/decorationkhlifipourmariageetevenementiel"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="https://www.youtube.com/channel/UCwJWXQD9JmqfQDkcAgQIUEQ"><i class="fab fa-youtube"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/wedding_planner_khlifi/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-right">
+                        <a class="mr-3" href="#!">Privacy Policy</a>
+                        <a href="#!">Terms of Use</a>
                     </div>
                 </div>
             </div>
@@ -393,7 +448,12 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
-                                    <img class="img-fluid d-block mx-auto" src="images/serveur3.jpg" alt="" />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/traditionnel/traditionnel1.jpg" alt="" />
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Quiter
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -401,7 +461,6 @@
                 </div>
             </div>
         </div>
-        <!-- Modal 2-->
         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -410,19 +469,11 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
-                                    <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>Date: January 2020</li>
-                                        <li>Client: Explore</li>
-                                        <li>Category: Graphic Design</li>
-                                    </ul>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/traditionnel/traditionnel3.jpg" alt="" />
+
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
-                                        Close Project
+                                        Quiter
                                     </button>
                                 </div>
                             </div>
@@ -431,7 +482,6 @@
                 </div>
             </div>
         </div>
-        <!-- Modal 3-->
         <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -440,19 +490,11 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
-                                    <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>Date: January 2020</li>
-                                        <li>Client: Finish</li>
-                                        <li>Category: Identity</li>
-                                    </ul>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/traditionnel/traditionnel4.jpg" alt="" />
+
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
-                                        Close Project
+                                        Quiter
                                     </button>
                                 </div>
                             </div>
@@ -461,7 +503,6 @@
                 </div>
             </div>
         </div>
-        <!-- Modal 4-->
         <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -470,19 +511,11 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
-                                    <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>Date: January 2020</li>
-                                        <li>Client: Lines</li>
-                                        <li>Category: Branding</li>
-                                    </ul>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/reception/reception1.jpg" alt="" />
+
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
-                                        Close Project
+                                        Quiter
                                     </button>
                                 </div>
                             </div>
@@ -491,7 +524,6 @@
                 </div>
             </div>
         </div>
-        <!-- Modal 5-->
         <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -500,19 +532,11 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
-                                    <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/05-full.jpg" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>Date: January 2020</li>
-                                        <li>Client: Southwest</li>
-                                        <li>Category: Website Design</li>
-                                    </ul>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/reception/reception2.jpg" alt="" />
+
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
-                                        Close Project
+                                        Quiter
                                     </button>
                                 </div>
                             </div>
@@ -521,7 +545,6 @@
                 </div>
             </div>
         </div>
-        <!-- Modal 6-->
         <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -530,19 +553,333 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
-                                    <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>Date: January 2020</li>
-                                        <li>Client: Window</li>
-                                        <li>Category: Photography</li>
-                                    </ul>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/reception/reception3.jpg" alt="" />
+
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
-                                        Close Project
+                                        Quiter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/fiancailles/fiancailles1.jpg" alt="" />
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Quiter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/fiancailles/fiancailles2.jpg" alt="" />
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Quiter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/fiancailles/fiancailles3.jpg" alt="" />
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Quiter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/fiancailles/fiancailles4.jpg" alt="" />
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Quiter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/fiancailles/fiancailles5.jpg" alt="" />
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Quiter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/fiancailles/fiancailles6.jpg" alt="" />
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Quiter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/buffet/buffet1.jpg" alt="" />
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Quiter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/buffet/buffet2.jpg" alt="" />
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Quiter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/buffet/buffet3.jpg" alt="" />
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Quiter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal16" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/team/serveur2.jpg" alt="" />
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Quiter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/team/serveur3.jpg" alt="" />
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Quiter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal18" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/team/serveur4.jpg" alt="" />
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Quiter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal19" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <img class="img-fluid d-block mx-auto col-md-6" src="assets/img/packs/1.jpg" alt="" />
+                                        <img class="img-fluid d-block mx-auto col-md-6" src="assets/img/packs/2.jpg" alt="" />
+                                    </div>
+                                    <div class="row">
+                                        <img class="img-fluid d-block mx-auto col-md-6" src="assets/img/packs/3.jpg" alt="" />
+                                        <img class="img-fluid d-block mx-auto col-md-6" src="assets/img/packs/4.jpg" alt="" />
+                                    </div>
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Quiter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal20" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/packs/Pack2.png" alt="" />
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Quiter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal21" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/packs/Pack3.png" alt="" />
+
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Quiter
                                     </button>
                                 </div>
                             </div>
